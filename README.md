@@ -1,0 +1,1 @@
+School of AI Kochi
