@@ -202,6 +202,38 @@
   }
 }
 
+.meetup-section {
+  padding: 0 0 10rem 0;
+}
+
+.meetup-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .meetup-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.meetup-section .meetup-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .meetup-section .meetup-text {
+    padding: 5rem;
+  }
+  .meetup-section .meetup-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+
 .signup-section {
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
