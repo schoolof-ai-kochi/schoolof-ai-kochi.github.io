@@ -172,7 +172,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 10rem 0 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -232,25 +232,46 @@
     width: 30%;
   }
 }
-/* Carousel */
-.change-img {
-  content: url("../img/upsplash.jpg");
-  content: url("../img/bg-masthead.jpg");
-  content: url("../img/bg-signup.jpg");
+
+.vision-section {
+  padding: 0 0 10rem 0;
 }
 
-@media screen and (max-width: 700px) {
-  .change-img {
-  content: url("../img/upsplash.jpg");
-  content: url("../img/bg-masthead.jpg");
-  content: url("../img/bg-signup.jpg");
+.vision-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .vision-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
   }
 }
+
+.vision-section .vision-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .vision-section .vision-text {
+    padding: 5rem;
+  }
+  .vision-section .vision-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+
+
+@media (min-width: 992px) {
 
 .signup-section {
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
