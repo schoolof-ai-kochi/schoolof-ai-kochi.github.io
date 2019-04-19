@@ -25,7 +25,15 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
-  
+  <style>
+    #carousel-example-multi a.carousel-control {
+height: 26%;
+top: 33%;
+width: 86px;
+background: black;
+
+}
+  </style>
     
  </head>
 
@@ -116,18 +124,11 @@
   <!-- Meetups Section -->
   <section id="meetup" class="meetup-section bg-light">
   
-   
+  <div class="box"> 
 <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
 
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="btn-floating" href="#carousel-example-multi" data-slide="prev"><i
-        class="fas fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#carousel-example-multi" data-slide="next"><i
-        class="fas fa-chevron-right"></i></a>
-  </div>
   
-
+    
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
@@ -148,10 +149,10 @@
         <div class="card mb-2 h-100 ">
           <img class="card-img-top " src="img/Meetup-1.jpg"
             alt="Card image cap">
-          <div class="card-body mb-3">
+          <div class="card-body mb-3 card text-white bg-black">
             <h4 class="card-title font-weight-bold">Meetup #1, 26th January 2019</h4>
             <p class="card-text">Our very first session had three talk sessions from noteworthy speakers (Mr. Kannan, Mr. Rajiv, Ms. Enfa) and concluded with an engaging quiz.</p>
-                      </div>
+                   <br><br>   </div>
         </div>
       </div>
 
@@ -159,54 +160,62 @@
          </div>
     <div class="carousel-item">
       <div class="col-12 col-md-4 mx-auto">
-        <div class="card mb-2 h-100">
+        <div class="card mb-2 h-100 card text-white bg-black">
           <img class="card-img-top" src="img/Meetup-2.jpg"
             alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title font-weight-bold">Meetup #2, 23rd February 2019</h4>
             <p class="card-text">We begin our learning track from the absolute basics of AI (Python, Numpy) followed with a quiz to test the understanding of the participants.</p>
-                      </div>
+                      <br><br></div>
         </div>
       </div>
     </div>
     <div class="carousel-item">
       <div class="col-12 col-md-4 mx-auto">
-        <div class="card mb-2 h-100">
+        <div class="card mb-2 h-100 card text-white bg-black">
           <img class="card-img-top" src="img/Meetup-3.jpg"
             alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title font-weight-bold">Meetup #3, 09th March 2019</h4>
             <p class="card-text">We wind up the basics learning track of AI (pandas, matplotlib). Abhai Kollara, an NLP researcher, spoke a few words of encouragement to dive deeper. The mandatory quiz put to test the lessons shared.</p>
-                      </div>
+                   <br><br>   </div>
         </div>
       </div>
     </div>
     <div class="carousel-item ">
       <div class="col-12 col-md-4 mx-auto">
-        <div class="card mb-2 h-100">
+        <div class="card mb-2 h-100 card text-white bg-black ">
           <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (29).jpg"
             alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title font-weight-bold">Card title</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-primary btn-md btn-rounded">Button</a>
-          </div>
+              card's content.</p><br><br>
+                      </div>
         </div>
       </div>
     </div>
+    <a class="carousel-control-prev carousel-control" href="#carousel-example-multi" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next carousel-control" href="#carousel-example-multi" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    
     
     
   </div>
   </div>
-
+</div>
 
     
 
+
 </div>
 </div>
 
-  
   
 
   </section>
