@@ -16,7 +16,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #fff;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -30,6 +30,10 @@
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+
+#mainNav .navbar-color {
+   background-color: #fff;
 }
 
 
